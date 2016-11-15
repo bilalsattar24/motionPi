@@ -5,4 +5,4 @@ Motion Sensing Rasberry Pi
 
 Sends an SMS when motion is detected
 
-Collaborators - Bilal Sattar, Ryan Lebron, Michael Cwener, Daniel ________
+Collaborators - Bilal Sattar, Ryan Lebon, Michael Cwener, Daniel ________

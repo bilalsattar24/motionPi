@@ -4,5 +4,5 @@ client = TwilioRestClient('ACb482914bfed498ebab0bc6a28d5b9baf','875daa56b7b21d4d
  
 client.messages.create(from_='18315401397',
                        to='18316767386',
-                       body='Bro you better watch yo back someone just crossed your fn sensor bro.... like seriosly run nigga!!! they jacking u')
+                       body='Bro you better watch yo back someone just crossed your fn sensor bro....')
 print('text sent')

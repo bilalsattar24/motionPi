@@ -16,7 +16,7 @@ while True:
         if go:
             sendMessage()
             go = false
-            sendTime = time.time#time of last message sent
+            sendTime = time.time #time of last message sent
 
         elif time.time - sendTime < 300: #5 min
             go = True

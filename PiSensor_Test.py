@@ -9,7 +9,7 @@ AUTH_TOKEN = "875daa56b7b21d4dbfc3055526f7f3c6"; #User inserted Authentication T
                  #Both found on twilio account page
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN) #Used to send message with Twilio
-go = true
+go = true #determines whether to send a text or not
 
 while True:
     if pir.motion_detected:   #If motion is detected

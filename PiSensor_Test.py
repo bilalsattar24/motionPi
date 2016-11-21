@@ -18,7 +18,7 @@ while True:
             go = false
             sendTime = time.time#time of last message sent
 
-        elif time.time < 300: #5 min
+        elif time.time - sendTime < 300: #5 min
             go = True
 
 def sendMessage(): 
